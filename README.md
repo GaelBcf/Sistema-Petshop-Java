@@ -1,39 +1,53 @@
-
 # Sistema de Pet Shop — Java
 
 ## Sobre o projeto
 
-Sistema de gerenciamento de pet shop desenvolvido em Java como projeto acadêmico do curso de Ciência da Computação da Universidade São Judas Tadeu.
+Sistema acadêmico de gerenciamento de pet shop desenvolvido em Java, durante a graduação em Ciência da Computação na Universidade São Judas Tadeu.
 
-O projeto aplica conceitos de programação orientada a objetos, organização de classes e desenvolvimento de funcionalidades para a gestão de produtos e operações comerciais.
+A aplicação simula operações comerciais de um pet shop, incluindo vendas, controle de estoque, gerenciamento de preços e geração de relatórios.
+
+O desenvolvimento teve como foco a aplicação prática dos fundamentos de programação orientada a objetos.
 
 ## Funcionalidades
 
-- Consulta e gerenciamento de produtos.
-- Cadastro de produtos com preços definidos.
-- Registro e cálculo de vendas.
-- Controle de estoque.
-- Aplicação de descontos.
-- Tratamento de entradas inválidas.
-- Interface interativa via terminal.
+- Registro de vendas com identificação do cliente.
+- Consulta de produtos e estoque disponível.
+- Gerenciamento de preços e reposição de estoque.
+- Aplicação de descontos progressivos e por forma de pagamento.
+- Cálculo de faturamento, lucro estimado e margem de lucro.
+- Geração de comprovantes de vendas.
+- Relatórios com estatísticas das vendas realizadas.
+- Alertas de estoque abaixo do mínimo.
+- Validação de entradas e tratamento de exceções.
 
 ## Tecnologias e conceitos
 
-- Java
-- Programação orientada a objetos
-- Classes e objetos
-- Encapsulamento
-- Estruturas condicionais
-- Tratamento de exceções
+- **Java:** linguagem principal do projeto.
+- **Swing (JOptionPane):** interação por janelas gráficas.
+- **Programação Orientada a Objetos:** classes, objetos e encapsulamento.
+- **Getters e Setters:** acesso controlado aos atributos.
+- **Construtores:** inicialização dos objetos.
+- **Tratamento de exceções:** validação de informações e prevenção de entradas inválidas.
 
-## Objetivo
+## Como executar
 
-Consolidar conhecimentos de desenvolvimento de software através da criação de um sistema funcional, utilizando boas práticas de organização e lógica de programação.
+**Requisito:** JDK instalado.
+
+1. Baixe os arquivos `Produto.java` e `SistemaPetShop2.java`.
+2. Abra um terminal na pasta que contém os arquivos.
+3. Compile utilizando `javac Produto.java SistemaPetShop2.java`.
+4. Execute utilizando `java SistemaPetShop2`.
+
+A aplicação abrirá janelas interativas para realizar as operações.
+
+## Limitações atuais
+
+Os produtos são predefinidos no código e os dados das operações são mantidos em memória durante a execução, sem persistência em banco de dados.
 
 ## Desenvolvedor
 
 **Gael Barbosa Canhas Fernandes Géa**
 
-Estudante de Ciência da Computação — Universidade São Judas Tadeu.
+Ciência da Computação — Universidade São Judas Tadeu
 
-Previsão de formação: 2030.
+Previsão de conclusão: 2030.
